@@ -1,0 +1,21 @@
+{
+    "name": "bileslav/utils",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Bileslav\\": "src/"
+        },
+        "files": [
+            "src/functions.php"
+        ]
+    },
+    "authors": [
+        {
+            "name": "Vlad Biley"
+        }
+    ],
+    "config": {
+        "sort-packages": true
+    }
+}
