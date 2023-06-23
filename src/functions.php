@@ -1,5 +1,5 @@
 <?php
-declare (strict_types = 1);
+declare(strict_types=1);
 
 namespace Bileslav;
 
@@ -106,7 +106,7 @@ function flatten_argument(mixed &$value): void
 {
 	if (is_object($value)) {
 		$value = sprintf('object(%s)', get_class($value));
-	} else if (is_resource($value)) {
+	} elseif (is_resource($value)) {
 		$value = sprintf('resource(%s)', get_resource_type($value));
 	}
 }
